@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Card from "./Card"; // reuse the Card component
-import Button from "./Button"; // reuse Button for pagination
+import Button from "../components/Button";
+import Card from "../components/Card";
 
 const ApiPosts = () => {
 	const [posts, setPosts] = useState([]);
