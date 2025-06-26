@@ -7,7 +7,7 @@ const Navbar = () => (
 			<Link
 				to="/"
 				className="text-xl font-bold text-blue-600 dark:text-blue-400">
-				PLP Task Manager
+				Task Manager
 			</Link>
 
 			<div className="flex gap-4">
