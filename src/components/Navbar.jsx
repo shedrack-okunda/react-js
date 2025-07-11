@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ThemeToggle from "./ThemeToggle";
+import { ThemeToggle } from "../context/ThemeContext";
 
 const Navbar = () => (
 	<nav className="bg-white dark:bg-gray-800 shadow">
@@ -13,14 +13,8 @@ const Navbar = () => (
 			<div className="flex gap-4">
 				<Link
 					to="/"
-					className="text-gray-700 dark:text-gray-300 hover:underline">
+					className="text-gray-700 dark:text-gray-300 hover: cursor-pointer">
 					Home
-				</Link>
-
-				<Link
-					to="/about"
-					className="text-gray-700 dark:text-gray-300 hover:underline">
-					About
 				</Link>
 
 				<ThemeToggle />
